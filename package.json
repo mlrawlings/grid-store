@@ -1,0 +1,35 @@
+{
+  "name": "grid-store",
+  "version": "1.0.0",
+  "description": "streaming api for mongodb gridfs",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Michael Rawlings",
+    "email": "mlrawlings@gmail.com",
+    "url": "https://github.com/mlrawlings"
+  },
+  "dependencies": {
+    "busboy": "^0.2.12",
+    "gm": "^1.21.1",
+    "gridfs-stream": "^1.1.1",
+    "mkdirp": "^0.5.1"
+  },
+  "devDependencies": {
+    "express": "^4.13.4",
+    "mongodb": "^2.1.7",
+    "mongoose": "^4.4.3"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mlrawlings/grid-store.git"
+  },
+  "homepage": "https://github.com/mlrawlings/grid-store",
+  "bugs": {
+    "url": "https://github.com/mlrawlings/grid-store/issues"
+  }
+}
